@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2023", "DOM"],
+    "module": "ESNext",
+    "moduleResolution": "node", // Asegúrate de que esté configurado en "node"
+    "jsx": "preserve", // o "react-jsx", según tus necesidades
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "incremental": true
+    // Otras opciones...
+  },
+  "include": ["src"],
+  "composite": true
+}
